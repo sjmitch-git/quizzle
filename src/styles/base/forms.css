@@ -1,0 +1,7 @@
+label {
+    @apply cursor-pointer focus-visible:outline-warning;
+}
+
+select {
+    @apply text-xl border bg-info text-light rounded-md p-4 focus-visible:outline-warning cursor-pointer;
+}
