@@ -1,10 +1,10 @@
 import CATEGORIES from '@/data/categories.json'
 
-const APP_NAME: string = 'Quizzle'
+const APP_NAME: string = 'Quiz Nite'
 const APP_DESCRIPTION: string = 'TBD: Some description text...'
 
 const DEFAULT_CATEGORY = '9'
-const DEFAULT_CATEGORY_NAME = "General Knowledge"
+const DEFAULT_CATEGORY_NAME = 'General Knowledge'
 const DEFAULT_DIFFICULTY = 'easy'
 const DEFAULT_AMOUNT = '10'
 const DEFAULT_TYPE = 'multiple'
@@ -29,5 +29,5 @@ export {
 	API_FETCH_TOKEN,
 	API_RESET_TOKEN,
 	OPTIONS_DIFFICULTY,
-	OPTIONS_CATEGORIES
+	OPTIONS_CATEGORIES,
 }
