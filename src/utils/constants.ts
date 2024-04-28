@@ -6,7 +6,7 @@ const APP_DESCRIPTION: string = 'TBD: Some description text...'
 const DEFAULT_CATEGORY = '9'
 const DEFAULT_CATEGORY_NAME = "General Knowledge"
 const DEFAULT_DIFFICULTY = 'easy'
-const DEFAULT_AMOUNT = '2'
+const DEFAULT_AMOUNT = '10'
 const DEFAULT_TYPE = 'multiple'
 
 const OPTIONS_CATEGORIES = CATEGORIES

@@ -63,7 +63,7 @@ export default function Form() {
                         onChange={handleDifficultyChange}
                         className='absolute left-[-50px]'
                     />
-                    <label htmlFor={item} className="w-full p-4 capitalize text-xl">{item}</label>
+                    <label htmlFor={item} className="w-full p-4 capitalize text-xl" tabIndex={0}>{item}</label>
                 </div>
             ))}
         </div>
