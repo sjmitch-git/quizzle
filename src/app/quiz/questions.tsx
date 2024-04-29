@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import { TriviaContext } from '@/contexts/TriviaContext'
 import { ExtendedQuizQuestion } from '@/types/quizQuestion'
 import { decodeHtmlEntities } from '@/utils/decodeHtmlEntities'
-import { Heading } from '@/components'
+import { Heading, Progress } from '@/components'
 
 interface QuestionsProps {
 	data: ExtendedQuizQuestion[]
@@ -90,6 +90,10 @@ export default function Questions({ data }: QuestionsProps) {
 					Submit
 				</button>
 			</div>
+			<Progress
+				value={questionIndex}
+				total={data.length}
+			/>
 		</div>
 	)
 }

@@ -1,0 +1,15 @@
+.progress-wrapper {
+	@apply fixed left-0 top-0 w-full;
+}
+
+.progress {
+	@apply h-2 flex-1 bg-gray-300;
+}
+
+.progress-bar {
+	@apply h-2 overflow-hidden transition-all;
+}
+
+.progress-fill {
+	@apply h-full bg-info;
+}
