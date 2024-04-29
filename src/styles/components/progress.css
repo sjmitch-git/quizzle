@@ -3,11 +3,11 @@
 }
 
 .progress {
-	@apply h-2 flex-1 bg-gray-300;
+	@apply h-1 flex-1 bg-gray-300;
 }
 
 .progress-bar {
-	@apply h-2 overflow-hidden transition-all;
+	@apply h-1 overflow-hidden transition-all;
 }
 
 .progress-fill {
