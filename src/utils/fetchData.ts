@@ -14,7 +14,7 @@ async function FetchData(req: string) {
 	}
 
 	const res = await fetch(`${API_FETCH_DATA}${req}&token=${TOKEN}`, { cache: 'no-store' })
-	console.log('res', res)
+
 	if (!res.ok) {
 		console.log('ERROR', res)
 		throw new Error('Failed to fetch data')

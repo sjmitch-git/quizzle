@@ -49,11 +49,13 @@ export default function Questions({ data }: QuestionsProps) {
 				subLabel={`(${data[questionIndex]?.difficulty})`}
 				level={2}
 			/>
-			<Heading
-				label={`${questionIndex + 1}. ${decodeHtmlEntities(data[questionIndex]?.question)}`}
-				level={3}
-				className='normal-case'
-			/>
+			<div onContextMenu={(e) => e.preventDefault()}>
+				<Heading
+					label={`${questionIndex + 1}. ${decodeHtmlEntities(data[questionIndex]?.question)}`}
+					level={3}
+					className='normal-case'
+				/>
+			</div>
 
 			<div className='mx-auto mb-8 flex max-w-md flex-col gap-3'>
 				{data[questionIndex]?.answers.map((item, index) => (
