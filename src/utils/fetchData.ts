@@ -13,8 +13,6 @@ async function FetchData(req: string) {
 		await FetchToken()
 	}
 
-	console.log('req', req)
-
 	const res = await fetch(`${API_FETCH_DATA}${req}&token=${TOKEN}`, { cache: 'no-store' })
 
 	if (!res.ok) {
