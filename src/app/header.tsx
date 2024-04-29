@@ -4,11 +4,7 @@ import Link from 'next/link'
 import { APP_NAME } from '@/utils/constants'
 import Container from './container'
 
-export default function Header({
-	className,
-}: {
-	className?: string
-}) {
+export default function Header({ className = '' }: { className?: string }) {
 	return (
 		<header className={`header ${className}`}>
 			<Container>

@@ -1,7 +1,7 @@
 import Container from './container'
 
 export default function Footer({
-	className,
+	className = '',
 }: {
 	className?: string
 }) {
